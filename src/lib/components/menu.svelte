@@ -24,7 +24,7 @@
 	</ul>
 	<button
 		onclick={toggleMenu}
-		class=" h-screen overflow-x-hidden absolute  w-screen top-20 left-0 bg-black/40 z-10 md:hidden {openMenu
+		class=" h-screen overflow-hidden  absolute  w-screen top-20 left-0 bg-black/40 z-10 md:hidden {openMenu
 			? 'block'
 			: 'hidden'} "
 	></button>
