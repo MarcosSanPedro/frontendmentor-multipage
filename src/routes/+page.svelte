@@ -19,12 +19,12 @@
 	<img
 		src="/shared/framePhone.png"
 		alt="img"
-		class="  shadow-black shadow-2xl rounded-t-3xl xl:hidden"
+		class="   rounded-t-3xl xl:hidden"
 	/>
 	<img
 		src="/shared/frameHome.png"
 		alt="img"
-		class="  shadow-black shadow-2xl rounded-t-3xl hidden xl:block"
+		class="   rounded-t-3xl hidden xl:block"
 	/>
 </div>
 
