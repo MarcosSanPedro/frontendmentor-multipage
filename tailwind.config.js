@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        papaya: 'rgba(231, 129, 107, 1)', // Define tu color en HEX
+        papaya: 'rgba(231, 129, 107, 1)',
       },
       letterSpacing: {
         'extra-wide': '0.2em',

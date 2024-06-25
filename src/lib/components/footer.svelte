@@ -9,7 +9,7 @@
 
 <footer class=" relative z-0">
 	<div
-		class=" fondoBolita bg-right bg-no-repeat lg:bg-center lg:bg-repeat~ rounded-2xl w-5/6 m-auto flex flex-col items-center py-20 lg:py-24 px-7 text-center gap-8 md:gap-10 md:px-24 lg:px-52 bg-papaya z-40 absolute inset-x-0"
+		class=" fondoBolita bg-right bg-no-repeat lg:bg-center lg:bg-repeat rounded-2xl w-5/6 m-auto flex flex-col items-center py-20 lg:py-24 px-7 text-center gap-8 md:gap-10 md:px-24 lg:px-52 bg-papaya z-40 absolute inset-x-0"
 	>
 		<p class=" text-4xl lg:text-5xl font-bold text-white">Let's talk about your project</p>
 		<p class=" text-xl lg:text-2xl text-white">
