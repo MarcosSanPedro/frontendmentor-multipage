@@ -1,26 +1,8 @@
-<script lang="ts">
+<script>
+	import Country from "$lib/components/country.svelte";
 
-	type Country = {
-		src: string,
-		name: string
-	}
-
-const country: Record<number, Country> = {
-    1: {
-        src: "/aboutUs/desktop/illustration-canada.svg",
-        name: 'CANADA',
-    },
-    2: {
-        src: '/aboutUs/desktop/illustration-australia.svg',
-        name: 'AUSTRALIA',
-    },
-    3: {
-        src: '/aboutUs/desktop/illustration-united-kingdom.svg',
-        name: 'UNITED KINGDOM',
-    }
-
-}
 </script>
+
 
 <div class="  mb-16 md:w-11/12 m-auto xl:w-4/5 flex flex-col xl:flex-row">
 	<img src="/aboutUs/mobile/image-about-hero.jpg" class=" w-full md:hidden" alt="images" />
@@ -76,17 +58,8 @@ const country: Record<number, Country> = {
 		alt="images"
 	/>
 </div>
-<div class=" flex flex-col items-center justify-center px-10 gap-12 lg:gap-32 xl:gap-52 py-12 md:flex-row  ">
-{#each Object.entries(country) as [id, product]}
-		<div
-			class=" flex flex-col items-center justify-center text-center gap-6 "
-		>
-			<img src={product.src} alt="img" class="fondoBolita bg-center bg-no-repeat" />
-				<h2 class=" text-2xl whitespace-nowrap">{product.name}</h2>
-			<button class="text-2xl py-4 px-6 bg-papaya text-white rounded-xl">Learn More</button>
-		</div>
-	{/each}
-</div>
+ 
+<Country/>
 
 <div class="mb-16 md:w-11/12 m-auto xl:w-4/5 flex flex-col xl:flex-row">
 	<img src="/aboutUs/mobile/image-real-deal.jpg" class=" w-full md:hidden" alt="images" />
@@ -123,7 +96,5 @@ const country: Record<number, Country> = {
 		background-image: url('../../lib/assets/home/desktop/bg-pattern-hero-home.svg');
 	}
 
-	.fondoBolita {
-		background-image: url('../../lib/assets/shared/desktop/bg-pattern-small-circle.svg');
-	}
+	
 </style>

@@ -19,8 +19,8 @@
 		<li>GRAPHIC DESIGN</li>
 		<hr />
 		<li><a href="/our-company">OUR COMPANY</a></li>
-		<li>LOCATIONS</li>
-		<li>CONTACT</li>
+		<li><a href="/locations">LOCATIONS</a></li>
+		<li><a href="/contact">CONTACT</a></li>
 	</ul>
 	<button
 		onclick={toggleMenu}
@@ -34,7 +34,7 @@
 	<img src={logo} alt="logo" class=" w-64 lg:w-64" />
 	<ul class=" flex gap-10 whitespace-nowrap">
 		<li><a href="/our-company">OUR COMPANY</a></li>
-		<li>LOCATIONS</li>
-		<li>CONTACT</li>
+		<li><a href="/locations">LOCATIONS</a></li>
+		<li><a href="/contact">CONTACT</a></li>
 	</ul>
 </nav>
