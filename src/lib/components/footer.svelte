@@ -37,7 +37,6 @@
 			</ul>
 		</div>
 
-		<div class="w-full border-t opacity-20 hidden md:block"></div>
 
 		<div class=" pb-10 flex gap-10 flex-col lg:gap-28 md:flex-row md:m-20">
 			<ul class=" flex flex-col gap-2 whitespace-nowrap text-lg text-gray-400 text-center">
