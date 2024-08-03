@@ -16,7 +16,7 @@
 			Ready to take it to the next level? Contact us today and find out how our expertise can help
 			your buiness grow
 		</p>
-		<button class="  p-4 text-xl bg-white rounded-xl">GET IN TOUCH</button>
+		<a href="/contact" class="  p-4 text-xl bg-white rounded-xl hover:text-white hover:bg-black duration-300">GET IN TOUCH</a>
 	</div>
 	<div
 		class=" flex flex-col gap-9 justify-center items-center bg-black w-full text-white pt-80 absolute top-[225px]"
@@ -24,16 +24,16 @@
 		<div
 			class=" md:w-full flex flex-col gap-10 md:gap-10 md:justify-between md:flex-row lg:px-32 md:px-20"
 		>
-			<img src={footerLogo} alt="logo" class="w-72 md:w-60 m-auto md:m-0 lg:w-72" />
+			<a class="duration-300 transform hover:scale-110" href="/"><img src={footerLogo} alt="logo" class="w-72 md:w-60 m-auto md:m-0 lg:w-72" /></a>
 
 			<div class="w-96 border-t opacity-20 md:hidden"></div>
 
 			<ul
 				class=" flex flex-col md:flex-row gap-4 md:gap-10 whitespace-nowrap text-xl text-center lg:gap-28"
 			>
-				<li>OUR COMPANY</li>
-				<li>LOCATIONS</li>
-				<li>CONTACT</li>
+				<li class="duration-300 transform hover:scale-110"><a href="/our-company">OUR COMPANY</a></li>
+				<li class="duration-300 transform hover:scale-110"><a href="/locations">LOCATIONS</a></li>
+				<li class="duration-300 transform hover:scale-110"><a href="/contact">CONTACT</a></li>
 			</ul>
 		</div>
 
@@ -51,11 +51,11 @@
 				<li>M: contact@designo.co</li>
 			</ul>
 			<ul class=" flex gap-7 pb-7">
-				<li><Facebook /></li>
-				<li><YouTube /></li>
-				<li><Twitter /></li>
-				<li><Pinterest /></li>
-				<li><Instagram /></li>
+				<li class="duration-300 transform hover:scale-125"><Facebook /></li>
+				<li class="duration-300 transform hover:scale-125"><YouTube /></li>
+				<li class="duration-300 transform hover:scale-125"><Twitter /></li>
+				<li class="duration-300 transform hover:scale-125"><Pinterest /></li>
+				<li class="duration-300 transform hover:scale-125"><Instagram /></li>
 			</ul>
 		</div>
 	</div>

@@ -18,7 +18,7 @@
 		<input type="tel" required placeholder="Phone"  class=" bg-transparent  text-xl border-0 border-b-2 border-white pb-4 placeholder:text-gray-200 focus:outline-none"/>
 		<textarea  name="boniato" id="info" class=" bg-transparent  text-xl  border-0 border-b-2 border-white pb-6 placeholder:text-gray-200 focus:outline-none" placeholder="Your Message"></textarea>
 		
-		<button type="submit" class="px-8 text-xl py-3 rounded-xl m-auto mt-5 bg-white text-black ">SUBMIT</button>
+		<button type="submit" class="px-8 text-xl py-3 rounded-xl m-auto mt-5 bg-white text-black hover:text-white hover:bg-black duration-300 ">SUBMIT</button>
 	</form>
 </div>
  

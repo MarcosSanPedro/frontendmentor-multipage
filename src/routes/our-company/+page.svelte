@@ -29,7 +29,7 @@
 	/>
 </div>
 
-<div class="mb-16 md:w-11/12 m-auto xl:w-4/5 flex flex-col xl:flex-row-reverse">
+<div class="mb-16 lg:mb-10 md:w-11/12 m-auto xl:w-4/5 flex flex-col xl:flex-row-reverse">
 	<img src="/aboutUs/mobile/image-world-class-talent.jpg" class=" w-full md:hidden" alt="images" />
 	<img
 		src="/aboutUs/tablet/image-world-class-talent.jpg"
@@ -61,7 +61,7 @@
  
 <Country/>
 
-<div class="mb-16 md:w-11/12 m-auto xl:w-4/5 flex flex-col xl:flex-row">
+<div class="mb-16 md:w-11/12 m-auto xl:w-4/5 flex flex-col xl:flex-row mt-10">
 	<img src="/aboutUs/mobile/image-real-deal.jpg" class=" w-full md:hidden" alt="images" />
 	<img
 		src="/aboutUs/tablet/image-real-deal.jpg"

@@ -14,7 +14,7 @@
 			With over 10 years in the industry, we are experienced in creating fully responsive websites,
 			app design, and engaging brand experiences. Find out more about our services.
 		</p>
-		<button class="bg-white py-4 px-7 rounded-md text-2xl text-black">Learn More</button>
+		<a href="/our-company" class="bg-white py-4 px-7 rounded-md text-2xl text-black hover:text-white hover:bg-black duration-300 ">Learn More</a>
 	</div>
 	<img
 		src="/shared/framePhone.png"
@@ -49,8 +49,9 @@
 			/>
 
 			<h2 class="z-20 absolute top-24 text-white md:top-16 text-4xl">{a.tittle}</h2>
-			<p class="absolute top-40 md:top-28 z-20 text-xl text-white tracking-widest flex gap-4">
-				VIEW PROJECTS <img src="/shared/icon-right-arrow.svg" alt="" />
+			<p class="absolute top-40 md:top-28 text-xl text-white tracking-widest flex">
+				<a href={a.enlace} class="duration-300 transform hover:scale-110">VIEW PROJECTS <img src="/shared/icon-right-arrow.svg" class="inline w-3" alt=""/></a>
+				 
 			</p>
 		</div>
 	{/each}

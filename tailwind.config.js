@@ -10,7 +10,8 @@ export default {
       letterSpacing: {
         'extra-wide': '0.2em',
         'extra-tighter': '-0.05em',
-      }
+      },
+      
     }
   },
   plugins: []
